@@ -162,6 +162,30 @@ CM4Ext Nano has two position DIP switch for configuring USB and boot of CM4.
 GPIO connector is standard 40 pins 2 rows 2.54mm pitch pin header capatible with Raspberry Pi GPIO connector. Due to tight space avaialble for PCB layout, it was moved from board edge. 
 When delivered, GPIO connector is not soldered to save several millimeters in height for those who building compact projects. If soldering GPIO header, use included soldering spacer and put it between board and header connector. 
 
+Pinout:
+| Name   | Pin | Pin | Name   |
+| ------ | --- | --- | ------ |
+| 3.3V   | 1   | 2   | 5V     |
+| GPIO2  | 3   | 4   | 5V     |
+| GPIO3  | 5   | 6   | GND    |
+| GPIO4  | 7   | 8   | GPIO14 |
+| GND    | 9   | 10  | GPIO15 |
+| GPIO17 | 11  | 12  | GPIO18 |
+| GPIO27 | 13  | 14  | GND    |
+| GPIO22 | 15  | 16  | GPIO23 |
+| 3.3V   | 17  | 18  | GPIO24 |
+| GPIO10 | 19  | 20  | GND    |
+| GPIO9  | 21  | 22  | GPIO25 |
+| GPIO11 | 23  | 24  | GPIO8  |
+| GND    | 25  | 26  | GPIO7  |
+| GPIO0  | 27  | 28  | GPIO1  |
+| GPIO5  | 29  | 30  | GND    |
+| GPIO6  | 31  | 32  | GPIO12 |
+| GPIO13 | 33  | 34  | GND    |
+| GPIO19 | 35  | 36  | GPIO16 |
+| GPIO26 | 37  | 38  | GPIO20 |
+| GND    | 39  | 40  | GPIO21 |
+
 **Important!** Soldering spacer MUST be used when populating pin header connector. Without it, pins would pop on the other side of the board and will permanently damage CM4 board mechanically on mating.
 
 **Note**: Raspberry Pi HATs are expected to work normally with correct dt-blob, ie dedicated i2c bus (ID_SC and ID_SD) must be enabled.
