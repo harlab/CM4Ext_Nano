@@ -94,12 +94,64 @@ CM4Ext Nano has two micro HDMI (type-D) connectors with ESD protection and 5V cu
 DSI display connector is 22 pin 0.5mm pitch flex cable connector. It has the same pinout and connector type as DSI connector on Raspberry Pi CMIO boards (CM1, CM3 and CM4) with exception of having GPIO9 on unused pin for interrupt line if using LCDs with touchscreen.
 Official Raspberry Pi 7'' LCD can be connected using adapter for CM1 CMIO (order code: CM1 Adaptors) or CM3 CMIO (order code: RPI CMDK ADAPTER) boards. As of Q1 2021,  CM1 Adaptors available via [RS Components](https://uk.rs-online.com/web/p/raspberry-pi/1363742/) (RS Stock No.: 136-3742 Mfr. Part No.:  CM1 Adaptors)
 
+Pinout:
+| Pin | Name          |
+| --- | ------------- |
+| 1   | GND           |
+| 2   | DSI1_D0_N     |
+| 3   | DSI1_D0_P     |
+| 4   | GND           |
+| 5   | DSI1_D1_N     |
+| 6   | DSI1_D1_P     |
+| 7   | GND           |
+| 8   | DSI1_C_N      |
+| 9   | DSI1_C_P      |
+| 10  | GND           |
+| 11  | DSI1_D2_N     |
+| 12  | DSI1_D2_P     |
+| 13  | GND           |
+| 14  | DSI1_D3_N     |
+| 15  | DSI1_D3_P     |
+| 16  | GND           |
+| 17  | GPIO9         |
+| 18  | nc            |
+| 19  | GND           |
+| 20  | SCL0          |
+| 21  | SDA0          |
+| 22  | 3.3V          |
+
 **Important!** There are 22pin to 15pin flex cables available to interface Raspberry Pi Zero with Raspberry Pi camera. These cables have different pinout and won't work for DSI.
 
 **Important!** When connecting Raspberry Pi display, always connect 5V power. SDA and SCL signals are connected via DSI display and there is no need to connect those with jumper wires.
 
 ## CSI camera connector
 CSI display connector is 22 pin 0.5mm pitch flex cable connector. It is the same as on Raspberry Pi Zero and Raspberry CMIO boards. Flex cables are available from different suppliers as Raspberry Pi Zero camera 22 to 15 pin flex cable.
+
+Pinout:
+| Pin | Name          |
+| --- | ------------- |
+| 1   | GND           |
+| 2   | CSI1_D0_N     |
+| 3   | CSI1_D0_P     |
+| 4   | GND           |
+| 5   | CSI1_D1_N     |
+| 6   | CSI1_D1_P     |
+| 7   | GND           |
+| 8   | CSI1_C_N      |
+| 9   | CSI1_C_P      |
+| 10  | GND           |
+| 11  | CSI1_D2_N     |
+| 12  | CSI1_D2_P     |
+| 13  | GND           |
+| 14  | CSI1_D3_N     |
+| 15  | CSI1_D3_P     |
+| 16  | GND           |
+| 17  | CAM_GPIO      |
+| 18  | nc            |
+| 19  | GND           |
+| 20  | SCL0          |
+| 21  | SDA0          |
+| 22  | 3.3V          |
 
 ## DIP-switch configuration
 CM4Ext Nano has two position DIP switch for configuring USB and boot of CM4.
