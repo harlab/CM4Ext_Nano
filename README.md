@@ -1,6 +1,11 @@
 # CM4Ext_Nano
 Smallest, yet feature rich baseboard for Raspberry Pi Compute Module 4
 
+
+[Follow on Twitter](https://twitter.com/harlab_com)
+
+[Tell us what you think](https://github.com/harlab/CM4Ext_Nano/issues/1)
+
 ![CAD render](https://raw.githubusercontent.com/harlab/CM4Ext_Nano/main/Documentation/render_top_view.jpg)
 
 # Overview
