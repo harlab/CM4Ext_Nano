@@ -101,6 +101,10 @@ CM4Ext Nano has two micro HDMI (type-D) connectors with ESD protection and 5V cu
 DSI display connector is 22 pin 0.5mm pitch flex cable connector. It has the same pinout and connector type as DSI connector on Raspberry Pi CMIO boards (CM1, CM3 and CM4) with exception of having GPIO9 on unused pin for interrupt line if using LCDs with touchscreen.
 Official Raspberry Pi 7'' LCD can be connected using adapter for CM1 CMIO (order code: CM1 Adaptors) or CM3 CMIO (order code: RPI CMDK ADAPTER) boards. As of Q1 2021,  CM1 Adaptors available via [RS Components](https://uk.rs-online.com/web/p/raspberry-pi/1363742/) (RS Stock No.: 136-3742 Mfr. Part No.:  CM1 Adaptors)
 
+Tested displays (via adapters):
+- [Official Raspberry Pi 7" Display](https://www.raspberrypi.org/products/raspberry-pi-touch-display/)
+- [JDI LT070ME05000](https://github.com/harlab/CM4_LCD_LT070ME05000)
+
 Pinout:
 | Pin | Name          |
 | --- | ------------- |
