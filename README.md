@@ -24,7 +24,7 @@ CM4Ext Nano is the world's smallest baseboard for Raspberry Pi Compute Module 4.
 - 4-lane 22-pin CSI camera connector
 - 40-pin GPIO connector
 - WS2812 RGB LED
-- 4-pin Seeed Grove connector for 3.3V powered i2c or digital I/O modules
+- Qwiic-Compatible 3.3V i2c connector
 - 2-pin 5V connector for power in/out
 - 3.5mm audio jack connector
 - User button
@@ -68,11 +68,11 @@ Micro SD card, same as for Raspberry Pi 4 boards.
 
 **Important!** Don't insert SD card if using CM4 with onboard eMMC.
 
-## Grove connector
-Four pin Grove connector exposes i2c bus (GPIO2 and GPIO3 pins) and 3.3V power.
+## Qwiic-Compatible 3.3V i2c connector
+Four pin Qwiic-Compatible 3.3V i2c connector exposes i2c bus (GPIO2 and GPIO3 pins) and 3.3V power.
 It can be used to connect:
-- [Seeed Grove modules](https://wiki.seeedstudio.com/Grove_System/) (only 3.3V, [Grove i2c](https://wiki.seeedstudio.com/Grove_System/#grove-i2c) or [Grove digital](https://wiki.seeedstudio.com/Grove_System/#digital) types).
-- [Sparkfun QWIIC i2c modules](https://www.sparkfun.com/qwiic) via [passive adapter cable](https://www.sparkfun.com/products/15109)
+- [Sparkfun QWIIC i2c modules](https://www.sparkfun.com/qwiic)
+- [Seeed Grove modules](https://wiki.seeedstudio.com/Grove_System/) (only 3.3V, [Grove i2c](https://wiki.seeedstudio.com/Grove_System/#grove-i2c) or [Grove digital](https://wiki.seeedstudio.com/Grove_System/#digital) types via adapter cable).
 - Your own extensions
 
 **Important!** 3.3V is directly connected to CM4 regulator output and maximum current draw is 500mA. Exceeding maximum current consumption can permanently damage CM4.
