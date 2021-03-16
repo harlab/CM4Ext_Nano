@@ -1,11 +1,13 @@
 # CM4Ext_Nano
 Smallest, yet feature rich baseboard for Raspberry Pi Compute Module 4
 
-**Status:** In production. ETA: mid-March
+**Status:** Boards manufactured and shipped for testing and packaging 
 
 [Follow on Twitter](https://twitter.com/harlab_com)
 
 [Tell us what you think](https://github.com/harlab/CM4Ext_Nano/issues/1)
+
+![Panelized PCBs](https://raw.githubusercontent.com/harlab/CM4Ext_Nano/main/Documentation/CM4Ext_Nano_panelized_c.jpg)
 
 ![CAD render](https://raw.githubusercontent.com/harlab/CM4Ext_Nano/main/Documentation/render_top_view.jpg)
 
