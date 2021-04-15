@@ -1,7 +1,7 @@
 # CM4Ext_Nano
 Smallest, yet feature rich baseboard for Raspberry Pi Compute Module 4
 
-**Status:** Boards manufactured and shipped for testing and packaging 
+**Status:** Boards are manufactured. Samples are at compliance testing facility.
 
 [Follow on Twitter](https://twitter.com/harlab_com)
 
