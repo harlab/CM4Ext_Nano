@@ -7,9 +7,9 @@ Smallest, yet feature rich baseboard for Raspberry Pi Compute Module 4
 
 [Tell us what you think](https://github.com/harlab/CM4Ext_Nano/issues/1)
 
-![Panelized PCBs](https://raw.githubusercontent.com/harlab/CM4Ext_Nano/main/Documentation/CM4Ext_Nano_panelized_c.jpg)
+![First batch](https://raw.githubusercontent.com/harlab/CM4Ext_Nano/main/Documentation/CM4Ext_Nano_batch1.jpg)
 
-![CAD render](https://raw.githubusercontent.com/harlab/CM4Ext_Nano/main/Documentation/render_top_view.jpg)
+![Panelized PCBs](https://raw.githubusercontent.com/harlab/CM4Ext_Nano/main/Documentation/CM4Ext_Nano_panelized_c.jpg)
 
 # Overview
 CM4Ext Nano is the world's smallest baseboard for Raspberry Pi Compute Module 4. Measuring only 55x40mm, it brings power of Raspberry Pi 4 to a slightly bigger footprint that Raspberry Pi Zero. It's compatible with all Compute Modules 4 boards, including eMMC and no eMMC versions.
