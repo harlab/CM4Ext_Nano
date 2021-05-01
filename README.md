@@ -205,7 +205,21 @@ Pinout:
 **Note**: Raspberry Pi HATs are expected to work normally with correct dt-blob, ie dedicated i2c bus (ID_SC and ID_SD) must be enabled.
 
 ## WS2812 RGB LED
-WS2812 is connected to GPIO10 pin
+WS2812 is connected to GPIO10 pin.
+
+### Python example
+Summary below is based [Adafruit tutorial](https://learn.adafruit.com/neopixels-on-raspberry-pi/python-usage) with CM4 specific settings:
+- Enable SPI, using `sudo raspi-config` and navigating to `Interface Options` - `SPI` - `Yes`
+- Edit `/boot/config.txt` to add `core_freq_min=500` and reboot
+- Install Python libraries: `sudo pip3 install rpi_ws281x adafruit-circuitpython-neopixel`
+- Test with following code:
+```
+import board
+import neopixel
+pixels = neopixel.NeoPixel(board.D10, 1, pixel_order="GRB", brightness=0.2)
+pixels[0] = (0, 255, 0)
+
+```
 
 # CM4 USB
 Raspberry Pi CM4 has one USB2.0 port. It can be configured as USB host or USB device. To support this functionality, CM4Ext Nano implements USB switch to route USB D+/- lines to either USB-A or USB-C connectors. It controlled by DIP switch:
